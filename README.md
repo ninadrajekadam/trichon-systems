@@ -1,1 +1,1 @@
-# trichon-systems
+https://ninadrajekadam.github.io/trichon-systems/
