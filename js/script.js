@@ -3,7 +3,8 @@ $(() => {
 
     //nav height for a top margin to set on main tag
     let navHeight = $('.navbar')[0].offsetHeight;
-    if ($('.main').hasClass() !== 'home-main') $('.main').css({'margin-top' : navHeight + 10 +'px'});
+    $('.margin').css({'margin-top' : navHeight + 10 + 'px'});
+    $('.home.main').css({'margin-top' : navHeight + 'px'});
 
     //navbar toggle button icon
     if($('.navbar-toggler').hasClass('collapsed') === false) {
